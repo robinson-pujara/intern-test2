@@ -1,0 +1,63 @@
+/* InternMembersTable.css */
+
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .intern-members-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .intern-members-table th,
+  .intern-members-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  .intern-members-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .intern-members-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .intern-members-table tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .action-buttons button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loader {
+    border: 6px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 50px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
